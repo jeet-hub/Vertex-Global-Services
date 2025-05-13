@@ -558,7 +558,7 @@ Banner Area 2 CSS
 
 .banner-content-2 .content .scroll-down a {
   color: var(--whiteColor);
-  padding-top: 50px;
+  /* padding-top: 50px; */
   background-color: #ffffff1a;
   display: inline-block;
   font-size: 50px;
@@ -1027,7 +1027,7 @@ About Us Area 2 CSS
   margin: 0;
   position: absolute;
   width: 65px;
-  right: 32%;
+  right: 23%;
   bottom: 0;
   height: 35px;
   background-color: var(--secounderyColor);
@@ -1045,7 +1045,7 @@ About Us Area 2 CSS
   color: var(--whiteColor);
 }
 .about-content-courser.owl-theme .owl-nav [class*=owl-].owl-next {
-  left: 32%;
+  left: 23%;
 }
 .about-content-courser.owl-theme .owl-nav {
   margin-top: 60px;
@@ -2312,7 +2312,7 @@ Video Area CSS
 =================================================*/
 
 .video-area{
-  background-image: url(../img/all-img/vbaner.webp);
+  background-image: url(../img/banner/building.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4584,7 +4584,7 @@ Section Banner Area CSS
   background-image: url(../img/banner/section-image-3.png);
 }
 .section-banner.bg-4{
-  background-image: url(../img/banner/section-image-4.png);
+  background-image: url(../img/banner/contact1.webp);
 }
 .section-banner.bg-5{
   background-image: url(../img/banner/section-image-5.png);
@@ -4596,7 +4596,7 @@ Section Banner Area CSS
   background-image: url(../img/banner/section-image-7.png);
 }
 .section-banner.bg-8{
-  background-image: url(../img/banner/industries.webp);
+  background-image: url(../img/banner/industries1.webp);
 }
 .section-banner.bg-9{
   background-image: url(../img/banner/section-image-9.png);
@@ -4637,7 +4637,7 @@ Section Banner Area CSS
 }
 
 .section-banner.bg-20{
-  background-image: url(../img/banner/cxma.webp);
+  background-image: url(../img/banner/servicesit.webp);
 }
 
 .section-banner.bg-21{
@@ -4853,7 +4853,7 @@ Footer Area CSS
 }
 
 .footer-widget-info .footer-widget ul li a i {
-  color: var(--mainColor);
+  color: white;
   font-size: 22px;
   position: absolute;
   content: '';
