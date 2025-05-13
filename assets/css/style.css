@@ -5257,3 +5257,7 @@ div.col-md-2:last-child{
 #element{
   font-size: 76px;
 }
+
+.designation{
+  margin-top: -10px !important;
+}
