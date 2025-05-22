@@ -5,10 +5,25 @@
     width: 100%;
     background-color: var(--whiteColor);
     z-index: 10;
+      backdrop-filter: blur(50px); /* For the blur effect */
+  background-color: rgba(32, 32, 32, 0.1); /* Transparent white background */
+  -webkit-backdrop-filter: blur(50px); /* Safari support */
 }
 .navbar-area.style-2{
+    padding: 0 100px;
     position: absolute;
     background-color: transparent;
+   border-bottom: 1px solid #fff;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }
 .navbar-area.style-2 .navbar {
     background-color: transparent;
